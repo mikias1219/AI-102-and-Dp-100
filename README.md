@@ -57,6 +57,14 @@ python -c "import azure.ai.ml; import mltable; import azureml.mlflow; print('✅
 - Azure AI-102 exercises
 - Azure DP-100 machine learning projects
 
+## Project Files
+
+- `requirements.txt` - Python dependencies for Azure ML
+- `test_azure_ml.py` - Test script to verify Azure ML connection
+- `dp100_practice.ipynb` - Jupyter notebook with DP-100 practice exercises
+- `monitor_compute.py` - Script to monitor compute instance status
+- `azure_ml_env/` - Virtual environment with all dependencies
+
 ## Useful Azure ML CLI Commands
 
 ```bash
@@ -67,6 +75,26 @@ az ml compute list
 az ml experiment list
 az ml model list
 
-# Create compute instance (if needed via CLI)
-az ml compute create --name my-compute-instance --type ComputeInstance --size Standard_DS11_v2
+# Monitor compute instance
+python monitor_compute.py
+
+# Test Azure ML connection
+source azure_ml_env/bin/activate && python test_azure_ml.py
 ```
+
+## Practice Exercises
+
+1. **Run the test script**: Verify your Azure ML connection
+2. **Monitor compute instance**: Use the monitoring script to check when it's ready
+3. **Start practicing**: Open `dp100_practice.ipynb` and run through the exercises
+4. **Experiment in Azure ML Studio**: Use the web interface for advanced features
+
+## Your Environment Status
+
+✅ **Azure CLI**: Logged in and configured
+✅ **Azure ML Workspace**: Connected to "Machinelearning"
+✅ **Compute Instance**: Standard_DS11_v2 (creating/running)
+✅ **SDK Packages**: azure-ai-ml, mltable, azureml-mlflow installed
+✅ **Virtual Environment**: azure_ml_env ready
+✅ **Practice Resources**: Notebook and scripts created
+✅ **Git Repository**: All changes committed and pushed
