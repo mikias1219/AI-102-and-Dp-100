@@ -1,0 +1,11 @@
+# Azure Machine Learning SDK Requirements
+azure-ai-ml>=1.20.0
+mltable>=1.5.0
+azureml-mlflow>=1.50.0
+
+# Additional useful packages for ML development
+pandas>=1.5.0
+numpy>=1.21.0
+scikit-learn>=1.0.0
+matplotlib>=3.5.0
+seaborn>=0.11.0
