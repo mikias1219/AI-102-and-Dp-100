@@ -10,7 +10,7 @@ This repository contains practice materials for Azure AI-102 and DP-100 certific
 az login
 
 # Set default subscription (replace with your subscription ID)
-az account set --subscription "29f1cd2f-d0e2-413e-b913-1976b6924fa6"
+az account set --subscription "YOUR_SUBSCRIPTION_ID"
 
 # Configure Azure ML workspace
 az configure --defaults workspace=Machinelearning group=AI-102
