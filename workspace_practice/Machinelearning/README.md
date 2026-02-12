@@ -19,7 +19,7 @@ from azure.identity import DefaultAzureCredential
 credential = DefaultAzureCredential()
 ml_client = MLClient(
     credential=credential,
-    subscription_id="29f1cd2f-d0e2-413e-b913-1976b6924fa6",
+    subscription_id="YOUR_SUBSCRIPTION_ID",
     resource_group_name="AI-102",
     workspace_name="Machinelearning"
 )

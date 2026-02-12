@@ -17,7 +17,7 @@ az configure --defaults workspace=Machinelearning group=AI-102
 ```
 
 ### 2. Azure ML Studio Access
-- **URL**: https://ml.azure.com/?wsid=/subscriptions/29f1cd2f-d0e2-413e-b913-1976b6924fa6/resourcegroups/AI-102/workspaces/Machinelearning
+- **URL**: https://ml.azure.com/?wsid=/subscriptions/YOUR_SUBSCRIPTION_ID/resourcegroups/AI-102/workspaces/Machinelearning
 - Create a **Standard_DS11_v2** compute instance in Compute → Compute instances
 
 ### 3. Local Development Environment
