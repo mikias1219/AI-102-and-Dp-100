@@ -211,8 +211,12 @@ log/
 
 # Secrets and credentials
 secrets.json
+.env
 .env.local
 .env.*.local
+.env.production
+.env.development
+.env.test
 credentials.json
 .azure/
 .azure/
